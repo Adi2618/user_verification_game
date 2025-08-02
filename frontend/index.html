@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Human Verification Protocol</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="fullscreen-overlay">
+    <button id="enter-fullscreen-btn">INITIATE VERIFICATION</button>
+  </div>
+
+  <div class="center-wrapper">
+    <div id="container" style="display:none;">
+      <h1>HUMAN VERIFICATION INTERFACE</h1>
+      <p class="intro">:: Cognitive Integrity Scan Active ::</p>
+      <div id="chat-box"></div>
+      <input id="user-input" placeholder="Respond to AI probe..." autocomplete="off"/>
+      <button id="send-btn">Submit</button>
+      <button id="proceed-btn">Continue →</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
